@@ -38,3 +38,92 @@ such as:
 ros2 run kitti2bag2 kitti2bag 2011_09_26/ 2011_09_26/2011_09_26_drive_0084_sync/ ./kitti07
 ```
 
+## Output
+
+The following topics are included in the output bag:
+
+```
+topics_with_message_count:
+    - topic_metadata:
+        name: /kitti/velodyne_points
+        type: sensor_msgs/msg/PointCloud2
+        serialization_format: cdr
+        offered_qos_profiles: ""
+      message_count: 2762
+    - topic_metadata:
+        name: cam01/camera_info
+        type: sensor_msgs/msg/CameraInfo
+        serialization_format: cdr
+        offered_qos_profiles: ""
+      message_count: 2762
+    - topic_metadata:
+        name: cam02/camera_info
+        type: sensor_msgs/msg/CameraInfo
+        serialization_format: cdr
+        offered_qos_profiles: ""
+      message_count: 2762
+    - topic_metadata:
+        name: cam00/camera_info
+        type: sensor_msgs/msg/CameraInfo
+        serialization_format: cdr
+        offered_qos_profiles: ""
+      message_count: 2762
+    - topic_metadata:
+        name: cam00/image_raw
+        type: sensor_msgs/msg/Image
+        serialization_format: cdr
+        offered_qos_profiles: ""
+      message_count: 2762
+    - topic_metadata:
+        name: kitti/oxts/imu
+        type: sensor_msgs/msg/Imu
+        serialization_format: cdr
+        offered_qos_profiles: ""
+      message_count: 2762
+    - topic_metadata:
+        name: cam03/image_raw
+        type: sensor_msgs/msg/Image
+        serialization_format: cdr
+        offered_qos_profiles: ""
+      message_count: 2762
+    - topic_metadata:
+        name: /tf
+        type: tf2_msgs/msg/TFMessage
+        serialization_format: cdr
+        offered_qos_profiles: ""
+      message_count: 2762
+    - topic_metadata:
+        name: /kitti/transform_imu
+        type: geometry_msgs/msg/TransformStamped
+        serialization_format: cdr
+        offered_qos_profiles: ""
+      message_count: 2762
+    - topic_metadata:
+        name: cam03/camera_info
+        type: sensor_msgs/msg/CameraInfo
+        serialization_format: cdr
+        offered_qos_profiles: ""
+      message_count: 2762
+    - topic_metadata:
+        name: cam02/image_raw
+        type: sensor_msgs/msg/Image
+        serialization_format: cdr
+        offered_qos_profiles: ""
+      message_count: 2762
+    - topic_metadata:
+        name: cam01/image_raw
+        type: sensor_msgs/msg/Image
+        serialization_format: cdr
+        offered_qos_profiles: ""
+      message_count: 2762
+    - topic_metadata:
+        name: /kitti/pose_imu
+        type: geometry_msgs/msg/PoseStamped
+        serialization_format: cdr
+        offered_qos_profiles: ""
+      message_count: 2762
+```
+
+## TODO
+
+add the Gps msg to bag.
