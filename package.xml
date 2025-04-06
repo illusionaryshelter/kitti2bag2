@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<package>
+  <name>kitti2bag2</name>
+  <version>0.0.0</version>
+
+  <description>
+    This repository is for converting KITTI dataset to ROS2 bag format.
+  </description>
+  <maintainer email="illusionaryshelter@gmail.com">Yihee</maintainer>
+
+  <license>TODO</license>
+
+  <buildtool_depend>ament_cmake</buildtool_depend>
+  <build_depend>rclcpp</build_depend>
+  <build_depend>rosbag2_cpp</build_depend>
+  <build_depend>std_msgs</build_depend>
+  <build_depend>geometry_msgs</build_depend>
+  <build_depend>nav_msgs</build_depend>
+  <build_depend>sensor_msgs</build_depend>
+  <build_depend>visualization_msgs</build_depend>
+  <build_depend>tf2</build_depend>
+  <build_depend>tf2_eigen</build_depend>
+  <build_depend>tf_conversions</build_depend>
+  <build_depend>pcl_ros</build_depend>
+  <build_depend>pcl_conversions</build_depend>
+  <build_depend>message_filters</build_depend>
+  <build_depend>tf2_geometry_msgs</build_depend>
+  <build_depend>minkindr</build_depend>
+  <build_depend>minkindr_conversions</build_depend>
+  <build_depend>cv_bridge</build_depend>
+
+  <export>
+    <build_type>ament_cmake</build_type>
+  </export>
+</package>
