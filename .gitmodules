@@ -1,0 +1,6 @@
+[submodule "minkindr_ros2"]
+	path = minkindr_ros2
+	url = https://github.com/illusionaryshelter/minkindr_ros2.git
+[submodule "minkindr"]
+	path = minkindr
+	url = https://github.com/illusionaryshelter/minkindr.git
